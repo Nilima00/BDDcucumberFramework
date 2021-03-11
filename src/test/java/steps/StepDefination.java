@@ -64,7 +64,7 @@ public class StepDefination {
 	public void user_fill_up_the_form_entering_and_and_and_and_and_and_and_clicks_on_submit(String accname, String arg2,
 			String arg3, String arg4, String arg5, String arg6, String arg7) throws Throwable {
 		lp.ClickOnAccountTitle(accname);
-		lp.description(arg2);
+		lp.inputDescription(arg2);
 		lp.initialBalance(arg3);
 		lp.accountNumber(arg4);
 		lp.insertContactPerson(arg5);

@@ -15,4 +15,4 @@ Scenario Outline:
 	Examples: 
 	
 |username          |password    |accountTitle|description|initialBalance|accountNumber|contactPerson|phone |internetBankingUrl|
-|demo@techfios.com |abc123		|Testing     |Saving     |500           |23232322     |rewwrde     |345333|WWW.BOFA.COM|
+|demo@techfios.com |abc123		|Testing     |Saving     |500           |23232322     |rewwrde      |345333|WWW.BOFA.COM|

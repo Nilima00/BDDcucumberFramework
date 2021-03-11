@@ -15,7 +15,8 @@ monochrome = true,
 dryRun = false,
 plugin = {
 		"pretty", "html:target/cucumber", 
-		"json:target/cucumber.json" }
+		"json:target/cucumber.json"
+		}
 
 )
 

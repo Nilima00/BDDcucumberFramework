@@ -95,7 +95,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3259505000,
+  "duration": 4797319200,
   "status": "passed"
 });
 formatter.background({
@@ -114,7 +114,7 @@ formatter.match({
   "location": "StepDefination.User_is_on_the_Techfios_LoginPage()"
 });
 formatter.result({
-  "duration": 1333141500,
+  "duration": 1476522000,
   "status": "passed"
 });
 formatter.scenario({
@@ -193,36 +193,35 @@ formatter.match({
   "location": "StepDefination.user_enters_the_and(String,String)"
 });
 formatter.result({
-  "duration": 166568500,
+  "duration": 429721800,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefination.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 1385205800,
+  "duration": 1021606900,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefination.user_should_be_able_to_see_the_dashboard()"
 });
 formatter.result({
-  "duration": 923086900,
-  "status": "passed"
+  "duration": 73601500,
+  "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Dashboard]- iBilling\u003e but was:\u003c[Login ]- iBilling\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat steps.StepDefination.user_should_be_able_to_see_the_dashboard(StepDefination.java:47)\r\n\tat ✽.Then User should be able to see the dashboard(features/AnotherLogin.feature:10)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "StepDefination.user_clicks_on_bank_and_cash()"
 });
 formatter.result({
-  "duration": 4054918700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StepDefination.user_clicks_on_new_account()"
 });
 formatter.result({
-  "duration": 5608313800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -258,18 +257,16 @@ formatter.match({
   "location": "StepDefination.user_fill_up_the_form_entering_and_and_and_and_and_and_and_clicks_on_submit(String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 5464467500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "StepDefination.user_should_be_able_to_see_validate()"
 });
 formatter.result({
-  "duration": 323468500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 678419600,
+  "duration": 1932612500,
   "status": "passed"
 });
 });

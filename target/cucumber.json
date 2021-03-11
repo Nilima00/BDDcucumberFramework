@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1333141500,
+              "duration": 1476522000,
               "status": "passed"
             },
             "line": 4,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 3259505000,
+              "duration": 4797319200,
               "status": "passed"
             },
             "match": {
@@ -42,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 678419600,
+              "duration": 1932612500,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 166568500,
+              "duration": 429721800,
               "status": "passed"
             },
             "line": 8,
@@ -81,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 1385205800,
+              "duration": 1021606900,
               "status": "passed"
             },
             "line": 9,
@@ -93,8 +93,9 @@
           },
           {
             "result": {
-              "duration": 923086900,
-              "status": "passed"
+              "duration": 73601500,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Dashboard]- iBilling\u003e but was:\u003c[Login ]- iBilling\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat steps.StepDefination.user_should_be_able_to_see_the_dashboard(StepDefination.java:47)\r\n\tat ✽.Then User should be able to see the dashboard(features/AnotherLogin.feature:10)\r\n",
+              "status": "failed"
             },
             "line": 10,
             "name": "User should be able to see the dashboard",
@@ -105,8 +106,7 @@
           },
           {
             "result": {
-              "duration": 4054918700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "User clicks on bank and cash",
@@ -117,8 +117,7 @@
           },
           {
             "result": {
-              "duration": 5608313800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "User clicks on new account",
@@ -129,8 +128,7 @@
           },
           {
             "result": {
-              "duration": 5464467500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "User fill up the form entering \"Testing\"and \"Saving\"and \"500\"and \"23232322\"and \"rewwrde\"and \"345333\"and \"WWW.BOFA.COM\" and clicks on submit",
@@ -180,8 +178,7 @@
           },
           {
             "result": {
-              "duration": 323468500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "User should be able to see validate",
